@@ -1,7 +1,7 @@
 from datetime import datetime
 from playsound import playsound
-#input the time in HH:MM where HH is  hour and MM is minutes in 12 hour format
 alarm_date=input('Enter the date on which you want to set the alarm ').strip()
+#input the time in HH:MM where HH is  hour and MM is minutes in 12 hour format
 alarm_time=''.join(input("Enter the time of alarm to be set: HH:MM AM/PM ").split())
 alarm_hour=alarm_time[0:2]
 alarm_minute=alarm_time[3:5]
